@@ -69,3 +69,5 @@ print(torch.cuda.is_available())  # Mac OS, False
 
 x = torch.ones(5, requires_grad=True)
 print(x)
+
+print(torch.__version__)
